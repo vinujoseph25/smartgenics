@@ -37,7 +37,8 @@ $all-size: 16px;
 $white-color: #ffffff;
 $black-color: #282828;
 $grey-color: #4e4e4e;
-$orange-color: #fa5f0b;
+$orange-color: #1a70b3;
+// $orange-color: #fa5f0b;#1a70b3
 
 /*-- Default CSS --*/
 body {
@@ -541,10 +542,10 @@ button {
             max-width: 20px;
         }   
         .owl-theme .owl-dots .owl-dot span {
-            background: #fbad86;
+            background: $orange-color;
         }     
         .owl-theme .owl-dots .owl-dot.active span{
-            background: $white-color;
+            background: $black-color;
         }
         .about-shape {
             img {
