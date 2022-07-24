@@ -1,5 +1,4 @@
-@media only screen and (max-width : 767px) {
-
+@media only screen and (max-width: 767px) {
     $all-size: 15px;
     /*-- Default CSS --*/
     body {
@@ -19,22 +18,18 @@
         padding-bottom: 50px;
     }
     /*-- End Default CSS --*/
-
     /*----- Home One CSS -----*/
     /*-- Header Top --*/
     .header-top-area {
         text-align: center;
-
         .header-top-item {
             .header-left {
                 margin-bottom: 20px;
-
                 ul {
                     li {
                         margin-right: 0;
                         display: block;
                         margin-bottom: 5px;
-
                         &:last-child {
                             margin-bottom: 0;
                         }
@@ -50,7 +45,6 @@
         }
     }
     /*-- End Header Top --*/
-
     /*-- Navbar --*/
     .mean-container a.meanmenu-reveal span {
         margin-top: -8px;
@@ -58,10 +52,10 @@
         top: 10px;
     }
     .mean-container .mean-bar {
-        background-color: #fa5f0b;
+        background-color: #1a70b3;
     }
     .mobile-nav.mean-container .mean-nav ul li a.active {
-        color: #fa5f0b;
+        color: #1a70b3;
     }
     .navbar-area {
         .nav-shape {
@@ -72,23 +66,19 @@
         position: absolute;
         top: 10px;
         right: 60px;
-
         a {
             font-size: 14px;
             padding: 8px 12px;
         }
     }
     /*-- End Navbar --*/
-
     /*-- Banner --*/
     .banner-area {
         height: 100%;
         padding-top: 175px;
         padding-bottom: 110px;
-
         .banner-content {
             margin-top: 0;
-
             h1 {
                 font-size: 27px;
                 margin-bottom: 20px;
@@ -102,11 +92,9 @@
         font-size: 15px;
     }
     /*-- End Banner --*/
-
     /*-- About --*/
     .section-title {
         margin-bottom: 30px;
-
         .sub-title {
             font-size: 15px;
         }
@@ -117,10 +105,8 @@
     .about-area {
         padding-top: 50px;
         padding-bottom: 50px;
-
         .about-content {
             margin-bottom: 30px;
-
             ul {
                 li {
                     font-size: 13px;
@@ -139,17 +125,16 @@
             .about-shape {
                 img {
                     position: absolute;
-        
-                    &:nth-child(1){
+                    &:nth-child(1) {
                         display: none;
                     }
-                    &:nth-child(2){
+                    &:nth-child(2) {
                         display: none;
                     }
-                    &:nth-child(3){
+                    &:nth-child(3) {
                         display: none;
                     }
-                    &:nth-child(4){
+                    &:nth-child(4) {
                         display: none;
                     }
                 }
@@ -158,10 +143,8 @@
                 padding: 15px 30px;
                 left: 0;
                 bottom: 0;
-
                 h2 {
                     font-size: 35px;
-
                     span {
                         font-size: 30px;
                     }
@@ -177,7 +160,6 @@
         }
     }
     /*-- End About --*/
-
     /*-- Service --*/
     .service-item {
         h3 {
@@ -185,12 +167,10 @@
         }
     }
     /*-- End Service --*/
-
     /*-- Counter --*/
     .counter-area {
         padding-bottom: 20px;
         text-align: center;
-    
         .counter-text {
             h2 {
                 font-size: 25px;
@@ -203,13 +183,11 @@
         }
     }
     /*-- End Counter --*/
-
     /*-- Foreign --*/
     .foreign-area {
         top: 0;
         padding-top: 50px;
         padding-bottom: 50px;
-
         .foreign-slider {
             left: unset;
         }
@@ -220,12 +198,10 @@
         }
     }
     /*-- End Foreign --*/
-
     /*-- Team --*/
     .team-area {
         padding-top: 50px;
         padding-bottom: 20px;
-
         .container {
             top: 0;
         }
@@ -236,17 +212,14 @@
         }
     }
     /*-- End Team --*/
-
     /*-- Benefit --*/
     .benefit-area {
         margin-top: 0;
         padding-top: 50px;
         padding-bottom: 50px;
-
         .benefit-content {
             padding: 30px 10px 40px 10px;
             top: 0;
-            
             .benefit-inner {
                 h4 {
                     font-size: 16px;
@@ -255,15 +228,12 @@
         }
     }
     /*-- End Benefit --*/
-
     /*-- Partner --*/
     .partner-area {
         margin-top: 0;
         padding-top: 50px;
-
         .partner-wrap {
             padding: 25px 5px 30px;
-
             .partner-content {
                 .section-title {
                     text-align: center;
@@ -276,7 +246,6 @@
         }
     }
     /*-- End Partner --*/
-
     /*-- Cost --*/
     .cost-area {
         .cost-content {
@@ -284,7 +253,6 @@
         }
     }
     /*-- End Cost --*/
-
     /*-- Blog --*/
     .blog-item {
         .blog-inner {
@@ -292,7 +260,6 @@
             bottom: 0;
             opacity: 1;
             padding: 15px 10px 18px 10px;
-
             h3 {
                 font-size: 18px;
             }
@@ -313,7 +280,6 @@
         }
     }
     /*-- End Blog --*/
-
     /*-- Footer --*/
     .footer-item {
         .footer-service {
@@ -330,7 +296,6 @@
         }
     }
     /*-- End Footer --*/
-
     /*----- Back to Top CSS ------*/
     #toTop {
         bottom: 80px;
@@ -342,7 +307,6 @@
     }
     /*----- End Back to Top CSS -----*/
     /*----- End Home One CSS ------*/
-
     /*----- Home Two CSS -----*/
     /*-- Banner --*/
     .banner-img-two {
@@ -355,7 +319,6 @@
         }
     }
     /*-- End Banner --*/
-
     /*-- Logo --*/
     .logo-area {
         .col-lg-5 {
@@ -364,13 +327,11 @@
         }
     }
     /*-- End Logo --*/
-
     /*-- Offer --*/
     .offer-item {
         padding: 30px 5px 30px;
         margin-left: 10px;
         margin-right: 10px;
-
         .offer-bottom {
             h3 {
                 font-size: 20px;
@@ -378,15 +339,12 @@
         }
     }
     /*-- End Offer --*/
-
     /*-- About --*/
     .about-area-two {
         padding-bottom: 50px;
         text-align: center;
-
         .about-content {
             margin-bottom: 30px;
-
             .section-title {
                 text-align: center;
             }
@@ -396,8 +354,6 @@
         }
         .about-img {
             position: relative;
-        
-    
             img {
                 &:nth-child(1) {
                     margin-bottom: 30px;
@@ -410,12 +366,10 @@
         }
     }
     /*-- End About --*/
-
     /*-- Job --*/
     .job-area {
         padding-top: 50px;
         text-align: center;
-
         .job-shape {
             right: 0;
             top: unset;
@@ -429,14 +383,12 @@
         }
         .job-img {
             background-image: unset;
-
             img {
                 display: block;
             }
         }
         .job-content {
             padding: 30px 0 20px 0;
-
             .section-title {
                 text-align: center;
             }
@@ -453,23 +405,19 @@
         }
     }
     /*-- End Job --*/
-
     /*-- Foreign --*/
     .foreign-area-two {
         margin-top: 50px;
         padding-top: 50px;
         padding-bottom: 20px;
-
         .container {
             top: 0;
         }
     }
     /*-- End Foreign --*/
-
     /*-- Benefit --*/
     .benefit-area-two {
         padding-bottom: 0;
-
         .container-fluid {
             .col-lg-7 {
                 padding-left: 15px;
@@ -490,19 +438,16 @@
         }
         .benefit-img {
             background-image: unset;
-
             img {
                 display: block;
             }
         }
     }
     /*-- End Benefit --*/
-
     /*-- Social --*/
     .social-area {
         padding-bottom: 50px;
         text-align: center;
-
         .col-lg-6 {
             padding-left: 15px;
             padding-right: 15px;
@@ -511,7 +456,6 @@
             background-image: unset;
             margin-bottom: 30px;
             margin-left: 0;
-
             img {
                 display: block;
             }
@@ -519,11 +463,9 @@
         .social-content {
             padding: 30px 15px 40px;
             top: 0;
-            margin-left: 0; 
-
+            margin-left: 0;
             .section-title {
                 text-align: center;
-
                 h2 {
                     font-size: 25px;
                 }
@@ -535,13 +477,11 @@
         }
     }
     /*-- End Social --*/
-
     /*-- Testimonial --*/
     .testimonial-area {
         .testimonial-item {
             .testimonial-top {
                 padding: 30px 35px 30px 20px;
-
                 p {
                     font-size: 16px;
                 }
@@ -552,7 +492,6 @@
             }
             ul {
                 padding-left: 20px;
-
                 li {
                     flex: 0 0 20%;
                     max-width: 20%;
@@ -561,14 +500,12 @@
         }
     }
     /*-- End Testimonial --*/
-
     /*-- Book --*/
     .book-area {
         text-align: center;
         padding-top: 50px;
-        background-color: #fa5f0b;
+        background-color: #1a70b3;
         margin-bottom: 50px;
-
         .col-lg-6 {
             padding-left: 15px;
             padding-right: 15px;
@@ -576,7 +513,6 @@
         .book-img {
             background-image: unset;
             margin-bottom: 30px;
-
             img {
                 display: block;
             }
@@ -586,7 +522,6 @@
             padding-bottom: 0;
             margin-left: auto;
             margin-right: auto;
-
             &:before {
                 display: none;
             }
@@ -600,13 +535,11 @@
     }
     /*-- End Book --*/
     /*----- End Home Two CSS -----*/
-
     /*----- Home Three CSS -----*/
     /*-- Header Contact --*/
     .header-contact-area {
         padding-top: 20px;
         padding-bottom: 20px;
-
         .logo {
             display: none;
         }
@@ -619,13 +552,10 @@
         }
         .contact-item {
             text-align: center;
-
             ul {
-
                 li {
                     margin-bottom: 10px;
                     padding-left: 45px;
-
                     &:last-child {
                         margin-bottom: 0;
                     }
@@ -641,17 +571,14 @@
         }
     }
     /*-- End Header Contact --*/
-
     /*-- Navbar --*/
     .side-nav-two {
         position: absolute;
         top: 12px;
         right: 80px;
-
         .modal-btn {
             span {
                 background-color: #fff;
-
                 &:nth-child(3) {
                     width: 15px;
                 }
@@ -669,7 +596,6 @@
         .search-area {
             right: -85px;
             bottom: -95px;
-
             .search-icon {
                 right: 10px;
                 top: 24px;
@@ -686,19 +612,16 @@
         padding: 30px 15px 40px;
     }
     /*-- End Navbar --*/
-
     /*-- Banner --*/
     .banner-img-three {
         padding-bottom: 140px;
     }
     /*-- End Banner --*/
-
     /*-- Benefit --*/
     .benefit-area-three {
         margin-top: 0;
         position: relative;
         padding-bottom: 50px;
-
         .benefit-content {
             padding-top: 0;
             padding-bottom: 0;
@@ -708,17 +631,14 @@
         }
         .benefit-img-two {
             background-image: unset;
-
             img {
                 display: block;
             }
         }
     }
     /*-- End Benefit --*/
-
     /*-- Offer --*/
     .offer-area-two {
-
         .section-title {
             margin-bottom: 0;
         }
@@ -726,7 +646,6 @@
             margin-left: 10px;
             margin-right: 10px;
             padding: 30px 15px 30px;
-
             .offer-bottom {
                 h3 {
                     font-size: 17px;
@@ -735,11 +654,9 @@
         }
     }
     /*-- End Offer --*/
-
     /*-- Social --*/
     .social-area-two {
         padding-bottom: 50px;
-
         .social-img {
             background-image: unset
         }
@@ -751,15 +668,12 @@
     }
     /*-- End Social --*/
     /*----- End Home Three CSS -----*/
-
     /*----- About CSS -----*/
     /*-- Page Title --*/
     .page-title-area {
         height: 370px;
-
         .title-item {
             margin-top: 45px;
-
             h2 {
                 font-size: 30px;
             }
@@ -772,15 +686,12 @@
     }
     /*-- End Page Title --*/
     /*----- End About CSS -----*/
-
     /*----- Service Details CSS -----*/
     .service-details-area {
         padding-bottom: 50px;
-
         .service-details-item {
             .service-details-img {
                 margin-bottom: 30px;
-
                 h2 {
                     margin-bottom: 10px;
                     font-size: 25px;
@@ -797,7 +708,6 @@
             }
             .service-details-cat {
                 margin-bottom: 30px;
-
                 h3 {
                     font-size: 20px;
                 }
@@ -810,20 +720,15 @@
         }
     }
     /*----- End Service Details CSS -----*/
-
     /*----- Project Details CSS -----*/
     .project-details-item {
         margin-bottom: 30px;
-
         .project-details-img {
             margin-bottom: 18px;
-
             ul {
                 margin-bottom: 12px;
-
                 li {
                     font-size: 16px;
-
                     i {
                         top: 3px;
                     }
@@ -845,7 +750,6 @@
         }
     }
     /*----- End Project Details CSS -----*/
-
     /*----- Blog Details CSS -----*/
     .blog-details-item {
         .blog-details-name {
@@ -859,7 +763,6 @@
                 ul {
                     li {
                         font-size: 16px;
-
                         i {
                             top: 4px;
                         }
@@ -871,7 +774,6 @@
             blockquote {
                 font-size: 18px;
                 padding: 30px 15px 30px 50px;
-
                 i {
                     top: 20px;
                     left: 15px;
@@ -903,7 +805,6 @@
             ul {
                 margin: 0;
                 padding: 0;
-
                 li {
                     &:nth-child(2) {
                         margin-left: 20px;
@@ -913,7 +814,6 @@
         }
         .blog-details-form {
             padding: 30px 15px 40px;
-
             .blog-details-form-btn {
                 padding: 12px 25px;
             }
@@ -926,7 +826,6 @@
         }
     }
     /*----- End Blog Details CSS -----*/
-
     /*----- Contact CSS -----*/
     .contact-area {
         .contact-left {
@@ -954,7 +853,6 @@
         }
     }
     /*----- End Contact CSS -----*/
-
     /*----- FAQ CSS -----*/
     .faq-area {
         .faq-head {
@@ -963,7 +861,7 @@
                 font-size: 25px;
             }
         }
-        .accordion { 
+        .accordion {
             p {
                 font-size: $all-size;
                 padding: 20px 25px 15px 20px;
@@ -975,11 +873,9 @@
         }
     }
     /*----- End FAQ CSS -----*/
-
     /*----- Error CSS -----*/
     .error-item {
         height: 500px;
-
         h1 {
             font-size: 80px;
         }
@@ -993,12 +889,10 @@
         }
     }
     /*----- End Error CSS -----*/
-
     /*----- Coming Soon CSS -----*/
     .coming-item {
         height: 100vh;
         text-align: center;
-
         h1 {
             font-size: 35px;
         }
@@ -1006,35 +900,32 @@
             margin-bottom: 30px;
         }
         .coming-wrap {
-            .coming-inner{
-                h3{
+            .coming-inner {
+                h3 {
                     font-size: 35px;
                 }
-                p{
+                p {
                     font-size: 15px;
                 }
             }
         }
     }
     /*----- End Coming Soon CSS -----*/
-
     /*----- Privacy Policy CSS -----*/
     .privacy-area {
         padding-bottom: 20px;
     }
     .privacy-item {
         margin-bottom: 30px;
-
         h2 {
             font-size: 20px;
             margin-bottom: 10px;
         }
     }
     /*----- End Privacy PolicyCSS -----*/
-
 }
-@media only screen and (min-width : 768px) and (max-width : 991px) {
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
     $all-size: 16px;
     /*-- Default CSS --*/
     body {
@@ -1054,20 +945,16 @@
         padding-bottom: 70px;
     }
     /*-- End Default CSS --*/
-
     /*----- Home One CSS -----*/
     /*-- Header Top --*/
     .header-top-area {
         text-align: center;
-
         .header-top-item {
             .header-left {
                 margin-bottom: 20px;
-
                 ul {
                     li {
                         margin-right: 15px;
-
                         a {
                             font-size: 15px;
                         }
@@ -1083,7 +970,6 @@
         }
     }
     /*-- End Header Top --*/
-
     /*-- Navbar --*/
     .mean-container a.meanmenu-reveal span {
         margin-top: -8px;
@@ -1091,10 +977,10 @@
         top: 10px;
     }
     .mean-container .mean-bar {
-        background-color: #fa5f0b;
+        background-color: #1a70b3;
     }
     .mobile-nav.mean-container .mean-nav ul li a.active {
-        color: #fa5f0b;
+        color: #1a70b3;
     }
     .navbar-area {
         .nav-shape {
@@ -1105,24 +991,20 @@
         position: absolute;
         top: 10px;
         right: 70px;
-
         a {
             font-size: 14px;
             padding: 8px 12px;
         }
     }
     /*-- End Navbar --*/
-
     /*-- Banner --*/
     .banner-area {
         height: 100%;
         padding-top: 170px;
         padding-bottom: 110px;
-
         .banner-content {
             margin-top: 0;
             max-width: 695px;
-
             h1 {
                 font-size: 40px;
                 margin-bottom: 20px;
@@ -1133,11 +1015,9 @@
         }
     }
     /*-- End Banner --*/
-
     /*-- About --*/
     .section-title {
         margin-bottom: 30px;
-
         .sub-title {
             font-size: 16px;
         }
@@ -1148,10 +1028,8 @@
     .about-area {
         padding-top: 70px;
         padding-bottom: 70px;
-
         .about-content {
             margin-bottom: 30px;
-
             img {
                 margin-right: 10px;
                 padding-right: 15px;
@@ -1165,17 +1043,16 @@
             .about-shape {
                 img {
                     position: absolute;
-        
-                    &:nth-child(1){
+                    &:nth-child(1) {
                         display: none;
                     }
-                    &:nth-child(2){
+                    &:nth-child(2) {
                         display: none;
                     }
-                    &:nth-child(3){
+                    &:nth-child(3) {
                         display: none;
                     }
-                    &:nth-child(4){
+                    &:nth-child(4) {
                         display: none;
                     }
                 }
@@ -1184,10 +1061,8 @@
                 padding: 15px 30px;
                 left: 0;
                 bottom: 0;
-
                 h2 {
                     font-size: 35px;
-
                     span {
                         font-size: 30px;
                     }
@@ -1203,7 +1078,6 @@
         }
     }
     /*-- End About --*/
-
     /*-- Service --*/
     .service-item {
         h3 {
@@ -1211,12 +1085,10 @@
         }
     }
     /*-- End Service --*/
-
     /*--  Counter --*/
     .counter-area {
         padding-bottom: 40px;
         text-align: center;
-    
         .counter-text {
             h2 {
                 font-size: 25px;
@@ -1229,13 +1101,11 @@
         }
     }
     /*-- End Counter --*/
-
     /*-- Foreign --*/
     .foreign-area {
         top: 0;
         padding-top: 70px;
         padding-bottom: 70px;
-
         .foreign-slider {
             left: unset;
         }
@@ -1246,12 +1116,10 @@
         }
     }
     /*-- End Foreign --*/
-
     /*-- Team --*/
     .team-area {
         padding-top: 70px;
         padding-bottom: 40px;
-
         .container {
             top: 0;
         }
@@ -1262,17 +1130,14 @@
         }
     }
     /*-- End Team --*/
-
     /*-- Benefit --*/
     .benefit-area {
         margin-top: 0;
         padding-top: 70px;
         padding-bottom: 70px;
-
         .benefit-content {
             padding: 30px 50px 40px 30px;
             top: 0;
-            
             .benefit-inner {
                 h4 {
                     font-size: 16px;
@@ -1281,15 +1146,12 @@
         }
     }
     /*-- End Benefit --*/
-
     /*-- Partner --*/
     .partner-area {
         margin-top: 0;
         padding-top: 70px;
-
         .partner-wrap {
             padding: 25px 5px 30px;
-
             .partner-content {
                 .section-title {
                     text-align: center;
@@ -1302,7 +1164,6 @@
         }
     }
     /*-- End Partner --*/
-
     /*-- Cost --*/
     .cost-area {
         .cost-content {
@@ -1310,7 +1171,6 @@
         }
     }
     /*-- End Cost --*/
-
     /*-- Footer --*/
     .footer-item {
         .footer-service {
@@ -1326,7 +1186,6 @@
     }
     /*-- End Footer --*/
     /*----- End Home One CSS ------*/
-
     /*----- Home Two CSS -----*/
     /*-- Banner --*/
     .banner-img-two {
@@ -1338,7 +1197,6 @@
         }
     }
     /*-- End Banner --*/
-
     /*-- Logo --*/
     .logo-area {
         .col-lg-5 {
@@ -1347,11 +1205,9 @@
         }
     }
     /*-- End Logo --*/
-
     /*-- Offer --*/
     .offer-item {
         padding: 30px 5px 30px;
-
         .offer-bottom {
             h3 {
                 font-size: 20px;
@@ -1359,15 +1215,12 @@
         }
     }
     /*-- End Offer --*/
-
     /*-- About --*/
     .about-area-two {
         padding-bottom: 70px;
         text-align: center;
-
         .about-content {
             margin-bottom: 30px;
-
             .section-title {
                 text-align: center;
             }
@@ -1377,8 +1230,6 @@
         }
         .about-img {
             position: relative;
-        
-    
             img {
                 &:nth-child(1) {
                     margin-bottom: 30px;
@@ -1391,12 +1242,10 @@
         }
     }
     /*-- End About --*/
-
     /*-- Job --*/
     .job-area {
         padding-top: 70px;
         text-align: center;
-
         .job-shape {
             right: 0;
             top: unset;
@@ -1410,7 +1259,6 @@
         }
         .job-img {
             background-image: unset;
-
             img {
                 display: block;
             }
@@ -1418,7 +1266,6 @@
         .job-content {
             padding: 30px 0 40px 0;
             max-width: 100%;
-
             .section-title {
                 text-align: center;
             }
@@ -1435,23 +1282,19 @@
         }
     }
     /*-- End Job --*/
-
     /*-- Foreign --*/
     .foreign-area-two {
         margin-top: 70px;
         padding-top: 70px;
         padding-bottom: 40px;
-
         .container {
             top: 0;
         }
     }
     /*-- End Foreign --*/
-
     /*-- Benefit --*/
     .benefit-area-two {
         padding-bottom: 0;
-
         .container-fluid {
             .col-lg-7 {
                 padding-left: 15px;
@@ -1472,19 +1315,16 @@
         }
         .benefit-img {
             background-image: unset;
-
             img {
                 display: block;
             }
         }
     }
     /*-- End Benefit --*/
-
     /*-- Social --*/
     .social-area {
         padding-bottom: 70px;
         text-align: center;
-
         .col-lg-6 {
             padding-left: 15px;
             padding-right: 15px;
@@ -1493,7 +1333,6 @@
             background-image: unset;
             margin-bottom: 30px;
             margin-left: 0;
-
             img {
                 display: block;
             }
@@ -1501,11 +1340,9 @@
         .social-content {
             padding: 30px 15px 40px;
             top: 0;
-            margin-left: 0; 
-
+            margin-left: 0;
             .section-title {
                 text-align: center;
-
                 h2 {
                     font-size: 25px;
                 }
@@ -1517,14 +1354,12 @@
         }
     }
     /*-- End Social --*/
-
     /*-- Book --*/
     .book-area {
         text-align: center;
         padding-top: 70px;
-        background-color: #fa5f0b;
+        background-color: #1a70b3;
         margin-bottom: 70px;
-
         .col-lg-6 {
             padding-left: 15px;
             padding-right: 15px;
@@ -1532,7 +1367,6 @@
         .book-img {
             background-image: unset;
             margin-bottom: 30px;
-
             img {
                 display: block;
                 width: 100%;
@@ -1544,7 +1378,6 @@
             margin-left: auto;
             margin-right: auto;
             max-width: 500px;
-
             &:before {
                 display: none;
             }
@@ -1558,13 +1391,11 @@
     }
     /*-- End Book --*/
     /*----- End Home Two CSS -----*/
-
     /*----- Home Three CSS -----*/
     /*-- Header Contact --*/
     .header-contact-area {
         padding-top: 20px;
         padding-bottom: 20px;
-
         .logo {
             display: none;
         }
@@ -1577,13 +1408,10 @@
         }
         .contact-item {
             text-align: center;
-
             ul {
-
                 li {
                     margin-bottom: 10px;
                     padding-left: 45px;
-
                     &:last-child {
                         margin-bottom: 0;
                     }
@@ -1599,17 +1427,14 @@
         }
     }
     /*-- End Header Contact --*/
-
     /*-- Navbar --*/
     .side-nav-two {
         position: absolute;
         top: 12px;
         right: 80px;
-
         .modal-btn {
             span {
                 background-color: #fff;
-
                 &:nth-child(3) {
                     width: 15px;
                 }
@@ -1627,7 +1452,6 @@
         .search-area {
             right: -12px;
             bottom: -95px;
-
             .search-icon {
                 right: 10px;
                 top: 24px;
@@ -1649,7 +1473,6 @@
         margin-top: 0;
         position: relative;
         padding-bottom: 70px;
-
         .benefit-content {
             padding-top: 0;
             padding-bottom: 0;
@@ -1659,14 +1482,12 @@
         }
         .benefit-img-two {
             background-image: unset;
-
             img {
                 display: block;
             }
         }
     }
     /*-- End Benefit --*/
-
     /*-- Offer --*/
     .offer-area-two {
         .section-title {
@@ -1676,7 +1497,6 @@
             margin-left: 10px;
             margin-right: 10px;
             padding: 30px 15px 30px;
-
             .offer-bottom {
                 h3 {
                     font-size: 17px;
@@ -1685,11 +1505,9 @@
         }
     }
     /*-- End Offer --*/
-
     /*-- Social --*/
     .social-area-two {
         padding-bottom: 70px;
-
         .social-img {
             background-image: unset
         }
@@ -1701,15 +1519,12 @@
     }
     /*-- End Social --*/
     /*----- End Home Three CSS -----*/
-
     /*----- About CSS -----*/
     /*-- Page Title --*/
     .page-title-area {
         height: 380px;
-
         .title-item {
             margin-top: 40px;
-
             h2 {
                 font-size: 30px;
             }
@@ -1722,15 +1537,12 @@
     }
     /*-- End Page Title --*/
     /*----- End About CSS -----*/
-
     /*----- Service Details CSS -----*/
     .service-details-area {
         padding-bottom: 70px;
-
         .service-details-item {
             .service-details-img {
                 margin-bottom: 30px;
-
                 h2 {
                     margin-bottom: 10px;
                     font-size: 25px;
@@ -1747,7 +1559,6 @@
             }
             .service-details-cat {
                 margin-bottom: 30px;
-
                 h3 {
                     font-size: 20px;
                 }
@@ -1760,18 +1571,14 @@
         }
     }
     /*----- End Service Details CSS -----*/
-
     /*----- Project Details CSS -----*/
     .project-details-item {
         margin-bottom: 30px;
-
         .project-details-img {
             margin-bottom: 30px;
-
             ul {
                 li {
                     font-size: 16px;
-
                     i {
                         top: 3px;
                     }
@@ -1793,7 +1600,6 @@
         }
     }
     /*----- End Project Details CSS -----*/
-
     /*----- Blog Details CSS -----*/
     .blog-details-item {
         .blog-details-name {
@@ -1807,7 +1613,6 @@
                 ul {
                     li {
                         font-size: 16px;
-
                         i {
                             top: 4px;
                         }
@@ -1819,7 +1624,6 @@
             blockquote {
                 font-size: 18px;
                 padding: 30px 15px 30px 50px;
-
                 i {
                     top: 20px;
                     left: 15px;
@@ -1848,7 +1652,6 @@
         }
         .blog-details-post {
             margin-bottom: 30px;
-
             ul {
                 li {
                     img {
@@ -1867,7 +1670,6 @@
             ul {
                 margin: 0;
                 padding: 0;
-
                 li {
                     &:nth-child(2) {
                         margin-left: 20px;
@@ -1877,7 +1679,6 @@
         }
         .blog-details-form {
             padding: 30px 15px 40px;
-
             .blog-details-form-btn {
                 padding: 12px 25px;
             }
@@ -1890,7 +1691,6 @@
         }
     }
     /*----- End Blog Details CSS -----*/
-
     /*----- FAQ CSS -----*/
     .faq-area {
         .faq-head {
@@ -1900,11 +1700,9 @@
         }
     }
     /*----- End FAQ CSS -----*/
-
     /*----- Error CSS -----*/
     .error-item {
         height: 500px;
-
         h1 {
             font-size: 85px;
         }
@@ -1918,12 +1716,10 @@
         }
     }
     /*----- End Error CSS -----*/
-
     /*----- Coming Soon CSS -----*/
     .coming-item {
         height: 100vh;
         text-align: center;
-
         h1 {
             font-size: 60px;
         }
@@ -1931,37 +1727,32 @@
             margin-bottom: 30px;
         }
         .coming-wrap {
-            .coming-inner{
-                h3{
+            .coming-inner {
+                h3 {
                     font-size: 35px;
                 }
-                p{
+                p {
                     font-size: 15px;
                 }
             }
         }
     }
     /*----- End Coming Soon CSS -----*/
-
     /*----- Privacy Policy CSS -----*/
     .privacy-area {
         padding-bottom: 40px;
     }
     .privacy-item {
         margin-bottom: 30px;
-
         h2 {
             font-size: 20px;
             margin-bottom: 10px;
         }
     }
     /*----- End Privacy Policy CSS -----*/
-
-
 }
 
-@media only screen and (min-width : 992px) and (max-width : 1199px) {
-
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
     .navbar-area .main-nav:before {
         width: 24%;
     }
@@ -1987,11 +1778,10 @@
     }
     .foreign-item .foreign-bottom h3 {
         font-size: 20px;
-    }    
-
+    }
 }
 
-@media only screen and (min-width : 1200px) and (max-width : 1350px) {
+@media only screen and (min-width: 1200px) and (max-width: 1350px) {
     .about-area .about-img-wrap .about-shape img:nth-child(4) {
         display: none;
     }
@@ -2002,14 +1792,13 @@
     }
 }
 
-@media only screen and (min-width : 1200px) and (max-width : 1245px) {
+@media only screen and (min-width: 1200px) and (max-width: 1245px) {
     .navbar-area .main-nav:before {
         width: 27%;
     }
 }
 
 @media only screen and (min-width: 1500px) {
-
     .navbar-area .main-nav:before {
         width: 33%;
     }
@@ -2037,14 +1826,18 @@
     }
 }
 
-@media only screen and (min-width : 1500px) and (max-width : 1600px) {
+@media only screen and (min-width: 1500px) and (max-width: 1600px) {
     .navbar-area .main-nav:before {
         width: 31%;
     }
 }
 
 @media (min-width: 1300px) {
-    .container, .container-lg, .container-md, .container-sm, .container-xl {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
         max-width: 1320px;
         width: 100%;
     }
