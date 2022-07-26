@@ -944,21 +944,21 @@ button:focus {
 }
 
 .foreign-item {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    /* padding-top: 25px;
+    padding-bottom: 25px; */
     -webkit-box-shadow: 0px 10px 10px 0px #dddddd33;
     box-shadow: 0px 10px 10px 0px #dddddd33;
-    /* margin-bottom: 30px; */
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-bottom: 30px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
     border-radius: 5px;
     background-color: #ffffff;
 }
 
 .foreign-item img {
-    width: 100%;
-    margin-bottom: 15px;
-    border-radius: 5px;
+    width: 75% !important;
+    /* margin-bottom: 15px; */
+    /* border-radius: 5px; */
     display: block;
 }
 
