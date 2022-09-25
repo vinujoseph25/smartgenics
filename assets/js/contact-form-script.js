@@ -1,9 +1,9 @@
 /*==============================================================*/
 // Raque Contact Form  JS
 /*==============================================================*/
-(function ($) {
+(function($) {
     "use strict"; // Start of use strict
-    $("#contactForm").validator().on("submit", function (event) {
+    $("#contactForm").validator().on("submit", function(event) {
         if (event.isDefaultPrevented()) {
             // handle the invalid form...
             formError();
@@ -16,7 +16,7 @@
     });
 
 
-    function submitForm(){
+    function submitForm() {
         // Initiate Variables With Form Content
         var name = $("#name").val();
         var email = $("#email").val();
@@ -27,32 +27,32 @@
 
         $.ajax({
             type: "POST",
-            url: "assets/php/form-process.php",
-            data: "name=" + name + "&email=" + email + "&msg_subject=" + msg_subject + "&phone_number=" + phone_number + "&message=" + message,
-            success : function(text){
-                if (text == "success"){
+            url: "assets",
+            data: { name, email, msg_subject, phone_number, message },
+            success: function(text) {
+                if (text == "success") {
                     formSuccess();
                 } else {
                     formError();
-                    submitMSG(false,text);
+                    submitMSG(false, text);
                 }
             }
         });
     }
 
-    function formSuccess(){
+    function formSuccess() {
         $("#contactForm")[0].reset();
         submitMSG(true, "Message Submitted!")
     }
 
-    function formError(){
-        $("#contactForm").removeClass().addClass('shake animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+    function formError() {
+        $("#contactForm").removeClass().addClass('shake animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
             $(this).removeClass();
         });
     }
 
-    function submitMSG(valid, msg){
-        if(valid){
+    function submitMSG(valid, msg) {
+        if (valid) {
             var msgClasses = "h4 tada animated text-success";
         } else {
             var msgClasses = "h4 text-danger";
